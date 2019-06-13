@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csporto23/fullStack-portfolio.git"
+  },
+  "author": "Colton Porto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csporto23/fullStack-portfolio/issues"
+  },
+  "homepage": "https://github.com/csporto23/fullStack-portfolio#readme",
+  "dependencies": {
+    "foundation-sites": "^6.5.3"
+  }
+}
