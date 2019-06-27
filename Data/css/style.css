@@ -603,8 +603,8 @@ figure.effect-bubba {
 
 figure.effect-bubba img {
 	opacity: 1;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
+	-webkit-transition: opacity 0.55s;
+	transition: opacity 0.55s;
 }
 
 figure.effect-bubba:hover img {
@@ -620,8 +620,8 @@ figure.effect-bubba figcaption::after {
 	left: 30px;
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.55s, -webkit-transform 0.55s;
+	transition: opacity 0.55s, transform 0.55s;
 }
 
 figure.effect-bubba figcaption::before {
@@ -640,8 +640,8 @@ figure.effect-bubba figcaption::after {
 
 figure.effect-bubba h2 {
 	padding-top: 30%;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
+	-webkit-transition: -webkit-transform 0.55s;
+	transition: transform 0.55s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 }
@@ -649,8 +649,8 @@ figure.effect-bubba h2 {
 figure.effect-bubba button  {
 	padding: 20px 2.5em;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.55s, -webkit-transform 0.55s;
+	transition: opacity 0.55s, transform 0.55s;
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
