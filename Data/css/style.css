@@ -685,3 +685,13 @@ figure.effect-bubba p {
 	transform: translate3d(0,20px,0);
 }
 
+
+.modal-content {
+    min-height: 400px;
+    min-width: 400px;
+    padding: 15px;
+}
+
+#aboutBg, #projectsBg{
+  background-color: grey;
+}
