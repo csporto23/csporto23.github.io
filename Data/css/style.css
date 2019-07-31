@@ -250,6 +250,7 @@ body{
   background-color: #333333;
   position: fixed;
   left: -8.75rem;
+  z-index: +2;
 }
 
 .sticky-social-bar .social-icon {
@@ -476,17 +477,10 @@ figure.effect-bubba p {
 }
 
 
-{
-  box-sizing: border-box;
-}
 
 
-.container {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-}
+
+
 
 ul {
   list-style: none;
@@ -501,9 +495,6 @@ color: white;
   box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
 
-.section > * {
-  padding: 1em;
-}
 
 .brandname {
   background: #c9e6ff;
@@ -562,11 +553,17 @@ color: white;
       grid-template-columns: 1fr 2fr;
   }
 
-  .section > * {
-      padding: 2em;
-  }
 
   .compnay-info h3, .brandname ul, .maint {
       text-align: left;
   }
+}
+
+#contact{
+  background-color: #363636;
+
+}
+
+.section {
+  margin: 0px;
 }
